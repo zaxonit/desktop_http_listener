@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<configuration>
+  <startup>
+  </startup>
+  <scriptConfig>
+  	<logpath>c:\PD\Log\</logpath>
+  </scriptConfig>
+  <launchableApps>
+    <!--application name/keyword with value of exe location -->
+    <add key="notepad" value="C:\WINDOWS\system32\notepad.exe"/>
+    <add key="calibre" value="C:\Program Files (x86)\Calibre2\calibre.exe"/>
+    <add key="caliber" value="C:\Program Files (x86)\Calibre2\calibre.exe"/>
+	<add key="excel" value="C:\Program Files (x86)\Microsoft Office\root\Office16\EXCEL.EXE"/>
+	<add key="brother" value="C:\Program Files (x86)\Brother\iPrint&amp;Scan\Brother iPrint&amp;Scan.exe"/>
+    <add key="citrix" value="C:\Program Files (x86)\Citrix\ICA Client\SelfServicePlugin\SelfService.exe"/>
+    <add key="citrix workspace" value="C:\Program Files (x86)\Citrix\ICA Client\SelfServicePlugin\SelfService.exe"/>
+  </launchableApps>
+  <localServices>
+    <!--NOT YET IMPLEMENTED service name/keyword with corrected service name as value-->
+    <add key="blueiris" value="BlueIris"/>
+    <add key="blue iris" value="BlueIris"/>
+    <add key="vnc" value="vncserver"/>
+  </localServices>
+</configuration>
